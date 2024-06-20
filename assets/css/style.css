@@ -1,5 +1,5 @@
 /* ======================== google fonts ======================== */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
 
 
 
@@ -8,13 +8,45 @@ body {
   overflow-x: hidden;
 }
 
-/* ======================== header ======================== */
+/* ======================== nav ======================== */
+.navbar {
+  background-color: #051C2A;
+}
 
+.nav-link {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+}
 
+.nav-button-text {
+  color: #ffffff;
+}
 
 
 /* ======================== hero section ======================== */
+.hero {
+  background-color: #051C2A;
+  background-image: url();
+}
 
+.multi-engage {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-statement {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-button {
+  background-color: #00C4C8;
+}
+
+.hero-button-text {
+  color: #051C2A;
+  font-family: "Inter", sans-serif;
+}
 
 
 
@@ -176,24 +208,24 @@ body {
 
 
   /* ============ hero section mq ============  */
-  
+
 
   /* ============ stat section mq ============  */
-  
+
 
   /* ============ services section mq ============  */
 
- 
+
 
   /* ============ testimonials section mq ============  */
- 
+
 
 
   /* ============ cta section mq ============  */
-  
+
 
   /* ============ footer section mq ============  */
-  
+
 
 }
 
@@ -205,19 +237,19 @@ body {
 
 
   /* ============ hero section mq ============  */
-  
+
 
   /* ============ stat section mq ============  */
-  
+
 
   /* ============ services section mq ============  */
 
 
   /* ============ testimonials section mq ============  */
- 
+
 
   /* ============ cta section mq ============  */
-  
+
 
   /* ============ footer section mq ============  */
 
@@ -227,7 +259,7 @@ body {
 @media screen and (min-width: 451px) and (max-width: 767px) {
 
 
-  
+
 
   /* ========== services section ==========  */
 
@@ -235,11 +267,11 @@ body {
 
   /* ========== test section ==========  */
 
- 
+
 
   /* ========== footer section ==========  */
 
- 
+
 
 }
 
@@ -257,7 +289,7 @@ body {
 
   /* ========== footer section ==========  */
 
-  
+
 
 }
 
@@ -267,31 +299,21 @@ body {
 
   /* ========== services section ==========  */
 
-  
+
 
   /* ========== test section ==========  */
 
-  
+
 
   /* ========== footer section ==========  */
 
- 
+
 
 }
 
 
 
-@media screen and (min-width: 1170px) and (max-width: 1350px) {
+@media screen and (min-width: 1170px) and (max-width: 1350px) {}
 
 
- 
-
-}
-
-
-@media screen and (min-width: 2100px) {
-
-
-
- 
-}
+@media screen and (min-width: 2100px) {}
