@@ -11,16 +11,59 @@ body {
 /* ======================== nav ======================== */
 .navbar {
   background-color: #051C2A;
+  display: flex;
+  width: 1440px;
+  padding: 0px 112px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-item {
+  gap: 40px;
 }
 
 .nav-link {
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
+  text-align: center;
+  font-feature-settings: 'clig'off, 'liga'off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  /* 131.25% */
+}
+
+.nav-link:hover {
+  color: #00C4C8;
+}
+
+
+.nav-button {
+  display: flex;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #FFF;
+
+  /* Drop shadow/Small */
+  box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
 }
 
 .nav-button-text {
   color: #ffffff;
 }
+
+.nav-button-text:hover {
+  color: #ffffff;
+}
+
+.nav-button:hover {
+  border: 1px solid #00C4C8;
+  background-color: #00C4C8;
+}
+
 
 
 /* ======================== hero section ======================== */
@@ -32,6 +75,10 @@ body {
 .multi-engage {
   color: #ffffff;
   font-family: "Inter", sans-serif;
+  display: flex;
+  padding: 8px 20px;
+  gap: 10px;
+  background: #49889A;
 }
 
 .hero-statement {
