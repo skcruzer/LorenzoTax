@@ -18,6 +18,7 @@ body {
   align-items: flex-start;
 }
 
+
 .nav-item {
   gap: 40px;
 }
@@ -69,7 +70,26 @@ body {
 /* ======================== hero section ======================== */
 .hero {
   background-color: #051C2A;
-  background-image: url("https://postimg.cc/t7V9HK0C");
+
+}
+
+.hero-left {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 97px;
+  padding-left: 112px;
+  /* gap: 10px; */
+  position: stretch;
+}
+
+.hero-right {
+  display: inline-flex;
+  gap: 16px;
+  position: stretch;
 }
 
 .multi-engage {
@@ -77,6 +97,11 @@ body {
   font-family: "Inter", sans-serif;
   display: flex;
   padding: 8px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
   gap: 10px;
   background: #49889A;
 }
@@ -84,6 +109,12 @@ body {
 .hero-statement {
   color: #ffffff;
   font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  /* 117.188% */
+  letter-spacing: -1.28px;
 }
 
 .hero-button {
@@ -93,6 +124,11 @@ body {
 .hero-button-text {
   color: #051C2A;
   font-family: "Inter", sans-serif;
+}
+
+.hero-image {
+  /* background:  lightgray 50% / cover no-repeat; */
+  mix-blend-mode: ;
 }
 
 
