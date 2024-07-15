@@ -191,12 +191,12 @@ body {
 
 .hero-image {
   fill: radial-gradient(49.51% 49.51% at 50.01% 50.01%, #BCBEC0 0%, #CCCECF 31%, #F7F8F8 91%, #FFF 100%);
-  background-blend-mode: multiply;
-  mix-blend-mode: multiply;
   position: absolute;
-  height: 725px;
-  left: 40%;
-  top: 0;
+  background-blend-mode: multiply;
+  height: 825px;
+  left: 58%;
+  top: -10%;
+  flex-shrink: 0;
 }
 
 
@@ -392,6 +392,16 @@ body {
   /* 150% */
 }
 
+.how-card {
+  display: flex;
+  width: 1440px;
+  padding: 0px 112px;
+  margin-left: -120px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .how-it-works {
   display: flex;
   width: 1340px;
@@ -476,9 +486,20 @@ body {
 
 .how-to-item {
 
+  width: 548px;
+  align-items: flex-start;
+  gap: 20px;
 }
 
+.how-to-number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
 .how-list-heading {
+  display: flex;
   align-self: stretch;
   color: var(--Generic-White, #FFF);
   font-family: Inter;
