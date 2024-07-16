@@ -485,18 +485,11 @@ body {
 }
 
 .how-to-item {
-
+  display: flex;
   width: 548px;
   align-items: flex-start;
   gap: 20px;
 }
-
-.how-to-number {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 
 .how-list-heading {
   display: flex;
