@@ -1032,6 +1032,14 @@ body {
   align-self: stretch;
 }
 
+.footer-info-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  margin-top: -30px;
+}
+
 .footer-link {
   color: var(--Neutral-500, #6B7280);
   text-decoration: none;
