@@ -9,7 +9,7 @@ body {
 }
 
 /* ======================== nav ======================== */
-.navbar {
+.main-nav {
   background-color: #051C2A;
   display: flex;
   width: 100%;
