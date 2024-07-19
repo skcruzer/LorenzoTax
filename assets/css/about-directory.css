@@ -423,6 +423,7 @@ body {
 .web-link-text {
   color: var(--Neutral-900, #111827);
   text-align: center;
+  white-space: nowrap;
   /*Label/Large/Medium*/
   font-family: Inter;
   font-size: 16px;
