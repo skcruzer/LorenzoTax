@@ -65,7 +65,6 @@ body {
 
 .nav-button-text {
   color: var(--Neutral-900, #111827);
-
   /* Label/Large/Medium */
   font-family: Inter;
   font-size: 16px;
