@@ -277,7 +277,80 @@ body {
   letter-spacing: -0.72px;
 }
 
+.team-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+}
 
+.team-row {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  align-self: stretch;
+}
+
+.team-card {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.profile-pic {
+  width: 280px;
+  height: 280px;
+  border-radius: 4px;
+  background: var(--Avatar-Profile-07, url(<path-to-image>) lightgray 50% / cover no-repeat);
+  mix-blend-mode: luminosity;
+}
+
+.profile-pic:hover {
+  mix-blend-mode: normal;
+  width: 300px;
+  height: 300px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.profile-name {
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 116.667% */
+}
+
+.profile-second-name {
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 155.556% */
+}
+
+.profile-title {
+  align-self: stretch;
+  color: var(--Neutral-700, #374151);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 125% */
+}
 
 
 /* ==================== Directory Page ==================== */
