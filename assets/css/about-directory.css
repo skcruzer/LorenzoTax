@@ -669,6 +669,47 @@ body {
 }
 
 
+
+/* ======================== terms & privacy pages ================ */
+.terms {
+  display: flex;
+  width: 1440px;
+  padding: 0px 112px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: #FBF9F9;
+}
+
+.terms-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.terms-heading {
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  /* 122.222% */
+}
+
+.terms-subheading {
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  /* 122.222% */
+}
+
+
 /* ======================== media queries ======================== */
 @media screen and (max-width: 395px) {
 
