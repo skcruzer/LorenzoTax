@@ -710,6 +710,73 @@ body {
 }
 
 
+
+/* ======================== services page ======================== */
+.services {
+  display: flex;
+  width: 1440px;
+  padding: 0px 112px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background: #FBF9F9;
+}
+
+.services-exp {
+  display: flex;
+  width: 1138px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.services-overline {
+  color: #007976;
+
+  /* Paragraph/Overline/Large */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  align-self: stretch;
+}
+
+.services-heading {
+  width: 280px;
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  /* 141.667% */
+  letter-spacing: -0.48px;
+}
+
+.services-paragraph {
+  width: 775px;
+  height: 146px;
+  color: var(--Neutral-700, #374151);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+}
+
+
+
 /* ======================== media queries ======================== */
 @media screen and (max-width: 395px) {
 
