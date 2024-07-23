@@ -709,6 +709,16 @@ body {
   /* 122.222% */
 }
 
+.terms-heading-2 {
+  color: var(--Neutral-900, #111827);
+  font-family: Inter;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  /* 122.222% */
+}
+
 
 
 /* ======================== services page ======================== */
