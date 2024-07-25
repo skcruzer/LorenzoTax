@@ -13,6 +13,7 @@
 
   <!-- ======================== carousel ======================== -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
   <title>Lorenzo Tax | CPA</title>
 
@@ -349,7 +350,7 @@
         </div>
         <div class="test-top-right">
           <!--  ============ testimonial buttons ============   -->
-          <div class="test-navigate">
+          <!-- <div class="test-navigate">
             <div class="test-button">
 
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
@@ -366,7 +367,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -430,8 +431,8 @@
         </div>
       </div> -->
 
-      <div class="testimonial-carousel">
-        <div class="owl-carousel owl-theme" id="carouselControls">
+      <div class="test-bottom">
+        <div class="owl-carousel owl-theme">
           <div class="carousel-item">
             <div class="carousel-card">
               <div class="test-logo">
@@ -589,7 +590,7 @@
 
 
   <!-- ======================== js ======================== -->
-  <script src="assets/js/index.js"></script>
+  <script src="assets/js/main.js"></script>
 
   <!-- ======================== bootstrap bundle js ======================== -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -602,8 +603,7 @@
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
-        dots: true,
+        nav: true,
         autoplay: true,
         responsive: {
           0: {
