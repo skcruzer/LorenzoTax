@@ -845,7 +845,8 @@ body {
 
 .owl-nav {
   position: absolute;
-  
+  top: 0;
+  right: 0;
 }
 
 .owl-carousel .owl-stage-outer {
