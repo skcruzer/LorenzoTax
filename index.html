@@ -11,6 +11,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+  <!-- ======================== carousel ======================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
   <title>Lorenzo Tax | CPA</title>
 
   <!-- ======================== css ======================== -->
@@ -369,7 +372,7 @@
       </div>
 
       <!--  ============ testimonial carousel ============   -->
-      <div class="testimonial-carousel">
+      <!-- <div class="testimonial-carousel">
         <div id="carouselControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="15000">
@@ -424,6 +427,59 @@
 
           </div>
 
+        </div>
+      </div> -->
+
+      <div class="testimonial-carousel">
+        <div class="owl-carousel owl-theme" id="carouselControls">
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <div class="test-logo">
+                <img class="test-img" src="assets/images/carousel-icon.png" />
+              </div>
+              <div class="test-info">
+                <div class="test-quote">
+                  "I was overwhelmed by the complexities of crypto taxes and didn't know where to start. Booking a
+                  discovery call with
+                  Lorenzo was a game-changer.”
+                </div>
+                <div class="test-name">Loki Bright
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <div class="test-logo">
+                <img class="test-img" src="assets/images/carousel-icon.png" />
+              </div>
+              <div class="test-info">
+                <div class="test-quote">
+                  "I was overwhelmed by the complexities of crypto taxes and didn't know where to start. Booking a
+                  discovery call with
+                  Lorenzo was a game-changer.”
+                </div>
+                <div class="test-name">Loki Bright
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <div class="test-logo">
+                <img class="test-img" src="assets/images/carousel-icon.png" />
+              </div>
+              <div class="test-info">
+                <div class="test-quote">
+                  "I was overwhelmed by the complexities of crypto taxes and didn't know where to start. Booking a
+                  discovery call with
+                  Lorenzo was a game-changer.”
+                </div>
+                <div class="test-name">Loki Bright
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -539,6 +595,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+  </script>
 </body>
 
 </html>
