@@ -641,13 +641,6 @@ body {
   border-radius: 0%;
   /*Dropshadow/Small*/
   box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
-  -webkit-border-radius: 0%;
-  -moz-border-radius: 0%;
-  -ms-border-radius: 0%;
-  -o-border-radius: 0%;
-}
-
-.directory-button-text {
   color: var(--Neutral-50, #F9FAFB);
 
   /* Label/Large/Medium */
@@ -659,6 +652,13 @@ body {
   /* 112.5% */
 }
 
+.directory-button-text {
+  color: transparent;
+  position: absolute;
+  border-radius: 0%;
+  padding: 12px 20px;
+}
+
 .directory-button:hover {
   border: 1px solid var(--Neutral-700, #374151);
   background: var(--Neutral-700, #374151);
@@ -667,9 +667,6 @@ body {
   box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
 }
 
-.directory-button-text:hover {
-  color: #ffffff;
-}
 
 .directory-partners {
   display: flex;
