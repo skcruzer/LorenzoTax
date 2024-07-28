@@ -548,6 +548,20 @@ body {
   letter-spacing: -0.72px;
 }
 
+.dir-cta-paragraph {
+  align-self: stretch;
+  color: var(--Neutral-200, #E5E7EB);
+  text-align: center;
+
+  /* Paragraph/Large/Regular */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
+}
+
 .dir-cta-button {
   display: flex;
   padding: 14px 20px;
@@ -732,6 +746,11 @@ body {
   background: #FBF9F9;
 }
 
+.service-1 {
+  width: 1280.006px;
+  height: 1px;
+}
+
 .services-exp {
   display: flex;
   width: 1138px;
@@ -783,6 +802,18 @@ body {
   font-weight: 400;
   line-height: 28px;
   /* 155.556% */
+}
+
+.service-2 {
+  width: 1138px;
+  height: 1px;
+  margin-top: 450px;
+}
+
+.service-3 {
+  width: 1138px;
+  height: 1px;
+  margin-top: 160px;
 }
 
 

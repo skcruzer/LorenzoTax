@@ -944,6 +944,7 @@ body {
   display: flex;
   width: 1340px;
   padding: 40px 80px;
+  margin-right: 20px;
   justify-content: center;
   align-items: center;
   gap: 32px;
@@ -977,7 +978,8 @@ body {
   width: 592px;
   color: var(--Neutral-200, #E5E7EB);
   text-align: center;
-
+  display: inline-block;
+  white-space: nowrap;
   /* Paragraph/Large/Regular */
   font-family: Inter;
   font-size: 18px;
