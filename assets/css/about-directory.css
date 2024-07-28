@@ -35,6 +35,10 @@ body {
   gap: 40px;
 }
 
+.navbar-nav {
+  gap: 40px;
+}
+
 .nav-link {
   color: var(--Generic-Black, #000);
   text-align: center;
@@ -65,13 +69,6 @@ body {
   border-radius: 0%;
   /*Dropshadow/Small*/
   box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
-  -webkit-border-radius: 0%;
-  -moz-border-radius: 0%;
-  -ms-border-radius: 0%;
-  -o-border-radius: 0%;
-}
-
-.nav-button-text {
   color: var(--Neutral-900, #111827);
   /* Label/Large/Medium */
   font-family: Inter;
@@ -80,6 +77,18 @@ body {
   font-weight: 500;
   line-height: 18px;
   /* 112.5% */
+}
+
+.nav-button-text {
+  color: transparent;
+  position: absolute;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
 }
 
 .nav-button:hover {
@@ -94,7 +103,6 @@ body {
 
 .nav-button-text:hover {
   color: #FFF;
-
   /* Label/Large/Medium */
   font-family: Inter;
   font-size: 16px;
@@ -487,10 +495,7 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
   border-radius: 0%;
-  -webkit-border-radius: 0%;
-  -moz-border-radius: 0%;
-  -ms-border-radius: 0%;
-  -o-border-radius: 0%;
+ 
 }
 
 .web-link-text {
@@ -508,6 +513,15 @@ body {
 
 .company-web-link:hover {
   border: 1px solid var(--Neutral-700, #374151);
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+}
+
+.web-link-text {
+  border: none;
   border-radius: 0%;
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
@@ -572,13 +586,6 @@ body {
   border-radius: 0%;
   /*Dropshadow/Small*/
   box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
-  -webkit-border-radius: 0%;
-  -moz-border-radius: 0%;
-  -ms-border-radius: 0%;
-  -o-border-radius: 0%;
-}
-
-.cta-button-text {
   color: var(--Neutral-900, #111827);
 
   /* Label/Large/Medium */
@@ -588,6 +595,12 @@ body {
   font-weight: 600;
   line-height: 18px;
   /* 112.5% */
+}
+
+.cta-button-text {
+  color: transparent;
+  position: absolute;
+  padding: 10px 20px;
 }
 
 .dir-cta-button:hover {
