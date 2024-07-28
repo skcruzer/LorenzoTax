@@ -195,7 +195,6 @@ body {
 
 .hero-button:hover {
   background: #49889A;
-  
   width: 600px;
   /* Drop shadow/Small */
   box-shadow: 0px 2px 6px 0px rgba(16, 24, 40, 0.06);
