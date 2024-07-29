@@ -1010,7 +1010,7 @@ body {
 
 .cta-button {
   display: flex;
-  padding: 10px 20px;
+  padding: 14px 20px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -1039,6 +1039,10 @@ body {
 
 .cta-button:hover {
   background: #E08A00;
+}
+
+.cta-button-text:hover {
+  color: transparent;
 }
 
 /* ======================== footer section ======================== */
@@ -1239,7 +1243,7 @@ body {
     gap: 1.599px;
   }
 
-  .nav-middle {}
+  
 
   .nav-right {
     display: flex;
