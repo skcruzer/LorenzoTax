@@ -1370,39 +1370,135 @@ body {
   .cards {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .services-card {
     width: 334px;
-    height: 400px;
+    height: auto;
     padding: 40px 24px;
     justify-content: center;
   }
 
-  .service-crypto {
-    position: absolute;
+  .service-crypto, .service-strategy {
     width: 82px;
     height: 8px;
-    left: 58px;
-    top: 393px;
+  }
+
+  .service-finance {
+    width: 700px;
+    height: 8px;
+  }
+
+  .control-badge {
+    padding-top: 20px;
   }
 
   #privateClientCard {
     width: 700px;
   }
 
+  #finStratText {
+    font-size: 13px;
+  }
 
 
-  /* ============ testimonials section mq ============  */
 
+  /* ============ how it works section mq ============  */
+  .how-card {
+    width: auto;
+    padding: 10px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .how-it-works {
+    flex-direction: column;
+    gap: 40px;
+    align-self: stretch;
+  }
+
+  .how-image {
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 709px;
+  }
+
+  .how-right {
+    padding-top: 16px;
+    width: 704px;
+    gap: 32px;
+  }
+
+  .how-list-paragraph {
+    align-self: stretch;
+    width: 648px;
+  }
+
+  /* ============ directory section mq ============  */
+  .directory {
+    padding: 40px 32px;
+    flex-direction: column;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .directory-partners {
+    display: grid;
+  }
+
+  .partner-row {
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  .partner {
+    width: 328.186px;
+    height: 336px;
+  }
+
+  /* ============ blog section mq ============  */
+  .blog {
+    margin-left: -80px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+  }
 
   /* ============ cta section mq ============  */
+  .call-to-action {
+    width: auto;
+  }
+
+  .cta-frame {
+    width: 700px;
+    margin-right: 0;
+  }
+
+  .cta-text {
+    
+  }
 
 
   /* ============ footer section mq ============  */
+  .footer {
+    padding: 0px 32px;
+    align-self: stretch;
+  }
+
+  .footer-bottom {
+    width: 700px;
+  }
+
+  .footer-social-links, .footer-policy-links {
+    align-items: center;
+  }
 
 
-
+    
 }
 
 @media screen and (min-width: 925px) and (max-width: 1099px) {

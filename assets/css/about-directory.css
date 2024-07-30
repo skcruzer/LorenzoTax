@@ -504,6 +504,10 @@ body {
 
 }
 
+#companyInquire {
+  margin-left: 10px;
+}
+
 .web-link-text {
   color: var(--Neutral-900, #111827);
   text-align: center;
@@ -533,6 +537,11 @@ body {
   -moz-border-radius: 0%;
   -ms-border-radius: 0%;
   -o-border-radius: 0%;
+}
+
+#servicesInquire {
+  padding: 5px 30px;
+
 }
 
 .directory-cta {
