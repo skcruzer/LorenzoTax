@@ -1275,7 +1275,7 @@ body {
     padding-right: 50px;
     padding-bottom: 240px;
     margin-inline: -90px;
-    
+
     text-align: center;
     font-family: Inter;
     font-size: 48px;
@@ -1304,15 +1304,22 @@ body {
 
   .services-intro {
     justify-content: space-between;
+    align-self: stretch;
+  }
+
+  .services-top {
+    display: inline;
   }
 
   .services-left {
-    padding-right: 50px;
+    padding-right: 0px;
+    width: auto;
+    padding-bottom: 20px;
   }
 
   .services-right {
-    width: 328px;
-    margin-left: -30px;
+    width: auto;
+    margin-left: 0px;
   }
 
   .services-top-statement {
@@ -1339,7 +1346,7 @@ body {
   }
 
   .service-finance {
-    width: 700px;
+    width: 532px;
     height: 8px;
   }
 
@@ -1351,16 +1358,16 @@ body {
     width: 700px;
   }
 
-  #finStratText {
-    font-size: 13px;
+  .serv-paragraph {
+    width: 450px;
   }
 
 
 
   /* ============ how it works section mq ============  */
   .how-card {
-    width: auto;
-    padding: 10px 32px;
+    width: 600px;
+    padding: 40px 32px;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1374,7 +1381,7 @@ body {
   .how-image {
     flex: 1 0 0;
     align-self: stretch;
-    width: 709px;
+    width: 540px;
   }
 
   .how-right {
@@ -1385,14 +1392,14 @@ body {
 
   .how-list-paragraph {
     align-self: stretch;
-    width: 648px;
+    width: auto;
   }
 
   /* ============ directory section mq ============  */
   .directory {
     padding: 40px 32px;
     flex-direction: column;
-    gap: 32px;
+    gap: 48px;
     align-self: stretch;
   }
 
@@ -1407,8 +1414,8 @@ body {
   }
 
   .partner {
-    width: 328.186px;
-    height: 336px;
+    width: 248px;
+    height: 248px;
   }
 
   /* ============ blog section mq ============  */
@@ -1419,18 +1426,41 @@ body {
     flex-shrink: 0;
   }
 
+  .blog-image {
+    right: -70%;
+    height: 422px;
+  }
+
+  .blog-intro {
+    margin-top: -70px;
+  }
+
   /* ============ cta section mq ============  */
   .call-to-action {
     width: auto;
   }
 
   .cta-frame {
-    width: 700px;
+    width: 550px;
+    margin-left: 18px;
     padding-left: 20px;
+}
+
+  .cta-header {
+    text-align: center;
+    padding-left: 50px; 
+    white-space: nowrap;
   }
 
   .cta-line {
-    text-align: start;
+    align-items: center;
+    width: 100%;
+    white-space: wrap;
+    margin-left: 50px;
+  }
+
+  .cta-button {
+    margin-left: 50px;
   }
 
 
@@ -1440,8 +1470,16 @@ body {
     align-self: stretch;
   }
 
+  .footer-info-links {
+    display: inline-block;
+  }
+
   .footer-bottom {
-    width: 700px;
+    width: 550px;
+  }
+
+  .footer-item {
+    margin: 20px 0;
   }
 
   .footer-social-links, .footer-policy-links {
