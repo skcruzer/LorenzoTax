@@ -1793,8 +1793,12 @@ body {
     width: 550px;
   }
 
-  .footer-item {
-    margin: 20px 0;
+  .footer-item-info {
+    padding-bottom: 10px;
+  }
+
+  .footer-top {
+    margin-bottom: -50px;
   }
 
   .footer-social-links, .footer-policy-links {
@@ -1804,7 +1808,7 @@ body {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 924px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
 
   /* ============ nav mq ============  */
@@ -2080,7 +2084,7 @@ body {
 
 
 
-@media screen and (min-width: 925px) and (max-width: 1099px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 
 
 
@@ -2112,7 +2116,7 @@ body {
 
 
 
-@media screen and (min-width: 1100px) and (max-width: 1439px) {}
+@media screen and (min-width: 1200px) and (max-width: 1439px) {}
 
 
 @media screen and (min-width: 1440px) {}
