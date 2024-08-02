@@ -1676,15 +1676,27 @@ body {
   /* =================== services page mq ==================  */
   .services {
     display: flex;
-    width: 768px;
+    max-width: 768px;
+    padding: 0px 32px;
+    align-items: flex-start;
+  }
+
+  #servicesHamburger {
+    margin-left: 60px;
+    top: 10px;
+    right: 700px;
+  }
+
+  .services-exp {
+    display: flex;
+    width: 700px;
     padding: 0px 32px;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  #servicesHamburger {
-    
-    
+  .services-paragraph {
+    font-size: 16px;
   }
 
   /* ============ cta section (all pages) mq ============  */
