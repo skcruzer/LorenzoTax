@@ -4,7 +4,7 @@
 
 
 body {
-  max-width: 100%;
+  max-width: 1440px;
   overflow-x: hidden;
 }
 
@@ -1814,6 +1814,11 @@ body {
     width: 680px;
     height: 1px;
     margin-top: 280px;
+  }
+
+  /* ============ terms/privacy pages mq ============  */
+  .terms {
+    max-width: 768px;
   }
 
   /* ============ cta section (all pages) mq ============  */
