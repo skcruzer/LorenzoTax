@@ -382,6 +382,8 @@ body {
 /* ==================== Directory Page ==================== */
 .directory {
   display: inline-flex;
+  width: 100%;
+  padding: 0px 112px;
   flex-direction: column;
   align-items: center;
   gap: 80px;
@@ -389,6 +391,7 @@ body {
 }
 
 .directory-section {
+  margin-top: -80px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -646,7 +649,7 @@ body {
   background: #E08A00;
 }
 
-.dir-cta-button-text:hover {
+.cta-button-text:hover {
   color: transparent;
 }
 
@@ -1075,6 +1078,73 @@ body {
   }
 
 
+  /* =============== directory page mq ===============  */
+  .directory {
+    display: flex;
+    width: 600px;
+    padding: 20px 16px;
+    margin-left: -30px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  #directoryBurger {
+    position: absolute;
+    top: 76px;
+    left: 152px;
+  }
+
+  .directory-section {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    margin-bottom: 20px;
+  }
+
+  .directory-overline {
+    padding-bottom: 20px;
+  }
+
+  .directory-row {
+    display: inline-block;
+    margin-top: -30px;
+  }
+
+  .directory-card {
+    display: block;
+    width: 360px;
+    height: 500px;
+    margin-bottom: 32px;
+  }
+
+  .company-image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .company-info {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .company-link {
+    margin-top: -35px;
+    margin-left: -10px;
+  }
+
+  /* #directoryCTA {
+    width: 540px;
+    height: 320px;
+    margin-left: 30px;
+  } */
+
+
   /* ============ cta section (all pages) mq ============  */
   .call-to-action {
     width: auto;
@@ -1104,7 +1174,7 @@ body {
     font-weight: 300;
   }
 
-  .dir-cta-button {
+  .dir-cta-button, .cta-button-text {
     margin-left: 90px;
     width: 300px;
   }
@@ -1305,6 +1375,58 @@ body {
   .profile-pic:hover {
     width: 240px;
     height: 240px;
+  }
+
+  /* ============ directory page mq ============  */
+
+  .directory {
+    display: flex;
+    width: 600px;
+    padding: 0px 32px;
+    margin-left: -30px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  #directoryBurger {
+    position: absolute;
+    top: 76px;
+    right: 43px;
+  }
+
+  .directory-section {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    margin-bottom: 20px;
+  }
+
+  .directory-overline {
+    padding-bottom: 20px;
+  }
+
+  .directory-row {
+    display: inline-block;
+    margin-top: -30px;
+  }
+
+  .directory-card {
+    width: 540px;
+
+    margin-bottom: 32px;
+  }
+
+  .company-link {
+    margin-left: -50px;
+  }
+
+  #directoryCTA {
+    width: 540px;
+    height: 320px;
+    margin-left: 30px;
   }
 
 
@@ -1508,9 +1630,48 @@ body {
     height: 280px;
   }
 
-  /* =================== services page mq ==================  */
-  
+  /* =================== directory page mq ==================  */
+  .directory {
+    display: flex;
+    width: 768px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
+  #directoryBurger {
+    margin-left: 60px;
+    top: 10px;
+    right: -3px;
+  }
+
+  .directory-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    margin-top: -140px;
+    margin-bottom: -40px;
+  }
+
+  .directory-overline {
+    padding-bottom: 32px;
+  }
+
+  .directory-row {
+    display: inline-block;
+    margin-top: -30px;
+  }
+
+  .directory-card {
+    width: 700px;
+    margin-bottom: 32px;
+  }
+
+  .company-link {
+    margin-left: 100px;
+  }
 
   /* ============ cta section (all pages) mq ============  */
   .call-to-action {
