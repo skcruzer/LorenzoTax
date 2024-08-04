@@ -1067,25 +1067,44 @@ body {
   }
 
   .team-right {
-    gap: 0px;
+    width: 100%;
+    gap: 56px;
+    padding-bottom: 50px;
   }
 
   .team-row {
-    display: inline-block;
+    gap: 12px;
   }
 
   .team-card {
-    padding-bottom: 56px;
+    gap: 16px;
+   
   }
 
   .profile-pic {
-    width: 358px;
-    height: 358px;
+    width: 173px;
+    height: 173px;
   }
 
   .profile-pic:hover {
-    width: 358px;
-    height: 358px;
+    width: 173px;
+    height: 173px;
+  }
+
+  .profile-info {
+    width: 173px;
+  }
+
+  .profile-name {
+    font-size: 18px;
+  }
+
+  .profile-second-name {
+    font-size: 16px;
+  }
+
+  .profile-title {
+    font-size: 14px;
   }
 
 
