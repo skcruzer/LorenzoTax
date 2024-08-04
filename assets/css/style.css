@@ -2145,7 +2145,7 @@ body {
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1439px) {
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
 
   /* ============ nav mq ============  */
 
@@ -2171,9 +2171,14 @@ body {
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   /* ============ nav mq ============  */
-
+  .main-nav {
+    max-width: 1440px;
+  }
+  .hero-image {
+    left: 32%;
+  }
 
 
 
