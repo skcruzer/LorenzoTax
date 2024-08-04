@@ -348,6 +348,7 @@ body {
 
 .services-card {
   display: flex;
+  width: 384px;
   height: 450px;
   padding: 40px 24px 24px 24px;
   flex-direction: column;
@@ -1341,6 +1342,10 @@ body {
     width: 241px;
   }
 
+  #blankServiceCard {
+    display: none;
+  }
+
 
 
   /* ============ how it works section mq ============  */
@@ -1470,7 +1475,7 @@ body {
     width: 300px;
   }
 
-  .cta-button-text,.cta-button-text:hover {
+  .cta-button-text, .cta-button-text:hover {
     color: transparent;
   }
 
@@ -1488,7 +1493,7 @@ body {
 
   .footer-info-links {
     display: inline-block;
-    
+
   }
 
   .footer-bottom {
@@ -1504,7 +1509,7 @@ body {
     align-items: center;
   }
 
-  
+
 
 }
 
@@ -1667,14 +1672,14 @@ body {
     padding-top: 20px;
   }
 
-  #privateClientCard {
-    width: 700px;
-  }
 
   .serv-paragraph {
     width: 450px;
   }
 
+  #blankServiceCard {
+    display: none;
+  }
 
 
   /* ============ how it works section mq ============  */
@@ -1971,7 +1976,7 @@ body {
   }
 
   .service-finance {
-    width: 700px;
+    width: 334px;
     height: 8px;
   }
 
@@ -1979,12 +1984,13 @@ body {
     padding-top: 20px;
   }
 
+
   #privateClientCard {
-    width: 700px;
+    padding-bottom: 15px;
   }
 
-  #finStratText {
-    font-size: 13px;
+  #blankServiceCard {
+    visibility: hidden;
   }
 
 
@@ -2100,7 +2106,9 @@ body {
 
 
   /* ============ services section mq ============  */
-
+  #blankServiceCard {
+    display: none;
+  }
 
   /* ============ testimonials section mq ============  */
 
@@ -2116,7 +2124,53 @@ body {
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1439px) {}
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+
+  /* ============ nav mq ============  */
 
 
-@media screen and (min-width: 1440px) {}
+
+
+  /* ============ hero section mq ============  */
+
+
+  /* ============ services section mq ============  */
+  #blankServiceCard {
+    display: none;
+  }
+
+  /* ============ testimonials section mq ============  */
+
+
+  /* ============ cta section mq ============  */
+
+
+  /* ============ footer section mq ============  */
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  /* ============ nav mq ============  */
+
+
+
+
+  /* ============ hero section mq ============  */
+
+
+  /* ============ services section mq ============  */
+  #blankServiceCard {
+    display: none;
+  }
+
+  /* ============ testimonials section mq ============  */
+
+
+  /* ============ cta section mq ============  */
+
+
+  /* ============ footer section mq ============  */
+
+
+}

@@ -803,6 +803,19 @@ body {
   background: #FBF9F9;
 }
 
+/* .services-burger-menu {
+  position: absolute;
+  width: 100px;
+  margin: 0;
+  background: #FFF;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  top: 110px;
+  right: -3px;
+  z-index: 1;
+  border: 1px solid #051C2A;
+} */
+
 
 .services-exp {
   display: flex;
@@ -1785,9 +1798,9 @@ body {
   }
 
   .services-burger-menu {
-    background-color: black;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    top: 100px;
+    right: -300px;
   }
 
   .services-exp {
