@@ -3,14 +3,14 @@
 
 
 
-html, body {
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-body {
+/* body {
   position: relative;
-}
+} */
 
 /* ======================== nav (all pages) ======================== */
 .about {
@@ -879,14 +879,14 @@ body {
 
 /* ======================== media queries ======================== */
 @media screen and (max-width: 389px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
 
-  body {
+  /* body {
     position: relative;
-  }
+  } */
 
   /* ============ nav mq ============  */
   .nav-button {
@@ -915,7 +915,7 @@ body {
 
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1305,6 +1305,7 @@ body {
   .footer-bottom {
     display: inline;
     width: 380px;
+    padding-bottom: 160px;
   }
 
   .footer-item-info {
@@ -1323,7 +1324,7 @@ body {
 }
 
 @media screen and (min-width: 451px) and (max-width: 767px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1656,7 +1657,7 @@ body {
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1950,7 +1951,7 @@ body {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1989,7 +1990,7 @@ body {
 
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -2002,7 +2003,7 @@ body {
 
 
 @media screen and (min-width: 1441px) {
-  html, body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
