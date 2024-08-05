@@ -207,7 +207,7 @@ body {
 
 .hero-image {
   fill: radial-gradient(49.51% 49.51% at 50.01% 50.01%, #BCBEC0 0%, #CCCECF 31%, #F7F8F8 91%, #FFF 100%);
-  position: absolute;
+  position: fixed;
   background-blend-mode: multiply;
   width: 902.328px;
   height: 901.834px;
