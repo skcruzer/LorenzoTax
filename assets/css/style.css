@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  overflow: hidden;
+}
+
 /* ======================== nav ======================== */
 .main-nav {
   background-color: #051C2A;
