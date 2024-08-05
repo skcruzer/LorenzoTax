@@ -3,9 +3,13 @@
 
 
 
-body {
+html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+body {
+  position: relative;
 }
 
 /* ======================== nav (all pages) ======================== */
@@ -875,6 +879,14 @@ body {
 
 /* ======================== media queries ======================== */
 @media screen and (max-width: 389px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
 
   /* ============ nav mq ============  */
   .nav-button {
@@ -903,7 +915,14 @@ body {
 
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
+  body {
+    position: relative;
+  }
 
   /* ============ nav mq (all pages) ============  */
   .about {
@@ -1304,6 +1323,14 @@ body {
 }
 
 @media screen and (min-width: 451px) and (max-width: 767px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
 
   /* ============ nav mq (all pages) ============  */
   .about {
@@ -1629,6 +1656,14 @@ body {
 
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
 
   /* ============ nav mq (all pages) ============  */
   .about {
@@ -1915,7 +1950,14 @@ body {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
+  body {
+    position: relative;
+  }
 
 
   /* ============ nav mq ============  */
@@ -1946,7 +1988,26 @@ body {
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1439px) {}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+
+}
 
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1441px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+}

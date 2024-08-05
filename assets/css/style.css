@@ -1518,6 +1518,7 @@ body {
   .footer-bottom {
     display: block;
     width: 390px;
+    padding-bottom: 160px;
   }
 
   .footer-item {
