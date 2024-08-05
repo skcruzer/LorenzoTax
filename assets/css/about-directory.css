@@ -1,7 +1,9 @@
 /* ======================== google fonts ======================== */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
 
-
+html {
+  overflow-x: hidden;
+}
 
 body {
   max-width: 100%;
@@ -876,6 +878,10 @@ body {
 
 /* ======================== media queries ======================== */
 @media screen and (max-width: 389px) {
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -910,6 +916,10 @@ body {
 
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -1974,13 +1984,7 @@ body {
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
- 
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {}
 
 
-@media screen and (min-width: 1441px) {
- 
-  
-}
+@media screen and (min-width: 1441px) {}
