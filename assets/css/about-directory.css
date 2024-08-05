@@ -911,7 +911,7 @@ body {
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
   body {
-    max-width: 390px;
+    max-width: 100%;
     overflow-x: hidden;
   }
 
