@@ -4,13 +4,10 @@
 
 
 body {
-  max-width: 100%;
+  max-width: 1440px;
   overflow-x: hidden;
 }
 
-/* body {
-  position: relative;
-} */
 
 /* ======================== nav (all pages) ======================== */
 .about {
@@ -884,9 +881,7 @@ body {
     overflow-x: hidden;
   }
 
-  /* body {
-    position: relative;
-  } */
+
 
   /* ============ nav mq ============  */
   .nav-button {
@@ -916,13 +911,10 @@ body {
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
   body {
-    max-width: 100%;
+    max-width: 390px;
     overflow-x: hidden;
   }
 
-  body {
-    position: relative;
-  }
 
   /* ============ nav mq (all pages) ============  */
   .about {
@@ -1325,13 +1317,10 @@ body {
 
 @media screen and (min-width: 451px) and (max-width: 767px) {
   body {
-    max-width: 100%;
+    max-width: 600px;
     overflow-x: hidden;
   }
 
-  body {
-    position: relative;
-  }
 
   /* ============ nav mq (all pages) ============  */
   .about {
@@ -1658,12 +1647,8 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    max-width: 100%;
+    max-width: 768px;
     overflow-x: hidden;
-  }
-
-  body {
-    position: relative;
   }
 
   /* ============ nav mq (all pages) ============  */
@@ -1990,25 +1975,12 @@ body {
 
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  body {
-    position: relative;
-  }
+ 
 
 }
 
 
 @media screen and (min-width: 1441px) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-
-  body {
-    position: relative;
-  }
+ 
+  
 }
