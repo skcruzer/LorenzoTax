@@ -2006,17 +2006,21 @@ body {
   }
 
   .cards {
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
   }
 
   .services-card {
-    width: 334px;
+    width: 700px;
     height: auto;
     padding: 40px 24px;
     justify-content: center;
+  }
+
+  .serv-paragraph {
+    width: 100%;
   }
 
   .service-crypto, .service-strategy {
@@ -2025,7 +2029,7 @@ body {
   }
 
   .service-finance {
-    width: 334px;
+    width: 699px;
     height: 8px;
   }
 
@@ -2033,14 +2037,6 @@ body {
     padding-top: 20px;
   }
 
-
-  #privateClientCard {
-    padding-bottom: 15px;
-  }
-
-  #blankServiceCard {
-    visibility: hidden;
-  }
 
 
 
