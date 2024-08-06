@@ -1206,11 +1206,6 @@ body {
     align-items: flex-start;
   }
 
-  #servicesBurger {
-    margin-top: -200px;
-    margin-left: 290px;
-  }
-
   .services-exp {
     display: flex;
     width: 340px;
@@ -1564,11 +1559,6 @@ body {
     max-width: 600px;
     padding: 0px 32px;
     align-items: flex-start;
-  }
-
-  #servicesBurger {
-    margin-top: 0px;
-    margin-left: -100px;
   }
 
   .services-exp {
