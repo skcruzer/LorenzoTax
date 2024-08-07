@@ -214,7 +214,6 @@ body {
   width: 902.328px;
   height: 901.834px;
   left: 58%;
-  top: -5%;
   flex-shrink: 0;
 }
 
@@ -226,6 +225,7 @@ body {
 /* ======================== services section ======================== */
 .services {
   display: flex;
+  width: 100%;
   padding: 80px 112px;
   flex-direction: column;
   align-items: flex-start;
@@ -461,21 +461,18 @@ body {
 
 .how-card {
   display: flex;
-  width: 1440px;
-  padding: 0px 112px;
-  margin-left: -120px;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  width: 100%x;
+  align-items: flex-start;
+  margin-left: -75px;
+  background: #111827;
 }
 
 .how-it-works {
   display: flex;
   width: 1340px;
   padding: 80px;
-  align-items: flex-start;
   gap: 120px;
-  background: #111827;
+
 }
 
 .how-left {
@@ -594,6 +591,7 @@ body {
 /* ======================== directory section ======================== */
 .directory {
   display: flex;
+  width: 100%;
   padding: 80px 112px;
   justify-content: space-between;
   align-items: flex-start;
@@ -710,13 +708,14 @@ body {
 /* ======================== blog section ======================== */
 .blog {
   background: var(--Neutral-50, #F9FAFB);
+  padding: 0px 30px;
 }
 
 .blog-image {
   width: 1340px;
   height: 550px;
+
   flex-shrink: 0;
-  margin-left: 40px;
   position: absolute;
 }
 
@@ -963,7 +962,7 @@ body {
 /* ======================== cta section ======================== */
 .call-to-action {
   display: flex;
-  width: 1440px;
+  width: 100%;
   padding: 80px 0px;
   flex-direction: column;
   align-items: center;
@@ -975,7 +974,7 @@ body {
   display: flex;
   width: 1340px;
   padding: 40px 80px;
-  margin-right: 20px;
+ 
   justify-content: center;
   align-items: center;
   gap: 32px;
@@ -1248,7 +1247,6 @@ body {
     width: 1047.157px;
     height: 1047.003px;
     left: 10%;
-    top: -0%;
     overflow: hidden;
   }
 
@@ -1369,8 +1367,7 @@ body {
 
   /* ============ how it works section mq ============  */
   .how-card {
-    width: 393px;
-    padding: 0px 40px;
+    width: auto;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1379,6 +1376,7 @@ body {
     flex-direction: column;
     gap: 40px;
     align-self: stretch;
+    margin-left: -5px;
   }
 
   .how-image {
@@ -1468,7 +1466,7 @@ body {
 
   .cta-frame {
     width: 360px;
-    margin-left: 18px;
+
     padding-left: 20px;
   }
 
@@ -1601,7 +1599,7 @@ body {
     width: 1047.157px;
     height: 1047.003px;
     left: 15%;
-    top: -10%;
+  
     overflow: hidden;
   }
 
@@ -1719,8 +1717,7 @@ body {
 
   /* ============ how it works section mq ============  */
   .how-card {
-    width: 600px;
-    padding: 40px 32px;
+    width: auto;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1729,6 +1726,7 @@ body {
     flex-direction: column;
     gap: 40px;
     align-self: stretch;
+    margin-left: -10px;
   }
 
   .how-image {
@@ -1790,12 +1788,13 @@ body {
 
   /* ============ cta section mq ============  */
   .call-to-action {
+    margin-top: -60px;
     width: auto;
   }
 
   .cta-frame {
     width: 550px;
-    margin-left: 18px;
+  
     padding-left: 20px;
   }
 
@@ -1939,7 +1938,6 @@ body {
     width: 1047.157px;
     height: 1047.003px;
     left: 30%;
-    top: -2%;
     overflow: hidden;
   }
 
@@ -2043,7 +2041,7 @@ body {
   /* ============ how it works section mq ============  */
   .how-card {
     width: auto;
-    padding: 10px 32px;
+    /* padding: 40px 32px; */
     flex-direction: column;
     align-items: flex-start;
   }
@@ -2052,6 +2050,7 @@ body {
     flex-direction: column;
     gap: 40px;
     align-self: stretch;
+    margin-left: -10px;
   }
 
   .how-image {
@@ -2109,7 +2108,12 @@ body {
 
   .cta-frame {
     width: 700px;
-    padding-left: 20px;
+  
+    padding-left: 10px;
+  }
+
+  .cta-text {
+    margin-left: 40px;
   }
 
   .cta-line {
