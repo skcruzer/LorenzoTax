@@ -960,6 +960,18 @@ body {
     border: 1px solid #051C2A;
   }
 
+  #navbarNavTerms {
+    position: absolute;
+    width: 196px;
+    height: 440px;
+    background: #fff;
+    border-radius: 4px;
+    top: 100px;
+    right: -140px;
+    z-index: 1;
+    border: 1px solid #051C2A;
+  }
+
   .navbar-nav {
     display: flex;
     padding: 40px 25px;
@@ -1372,6 +1384,18 @@ body {
     border: 1px solid #051C2A;
   }
 
+  #navbarNavTerms {
+    position: absolute;
+    width: 196px;
+    height: 440px;
+    background: #fff;
+    border-radius: 4px;
+    top: 100px;
+    right: -22px;
+    z-index: 1;
+    border: 1px solid #051C2A;
+  }
+
   .navbar-nav {
     display: flex;
     padding: 40px 25px;
@@ -1684,6 +1708,18 @@ body {
     position: absolute;
     width: 196px;
     height: 360px;
+    background: #fff;
+    border-radius: 4px;
+    top: 100px;
+    right: 30px;
+    z-index: 1;
+    border: 1px solid #051C2A;
+  }
+
+  #navbarNavTerms {
+    position: absolute;
+    width: 196px;
+    height: 440px;
     background: #fff;
     border-radius: 4px;
     top: 100px;
