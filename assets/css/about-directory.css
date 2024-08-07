@@ -1016,6 +1016,7 @@ body {
   }
 
   .about-us-heading {
+    width: auto;
     font-size: 48px;
   }
 
@@ -1054,8 +1055,8 @@ body {
   .expertise::after {
     content: "";
     display: block;
-    margin-left: -10px;
-    width: 550px;
+    margin-left: -5px;
+    width: 360px;
     padding: 0px;
     border-top: 1px solid #B9B9B9;
   }
