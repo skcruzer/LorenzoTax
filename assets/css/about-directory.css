@@ -909,7 +909,7 @@ body {
 
 
 @media screen and (min-width: 390px) and (max-width: 450px) {
- body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1136,6 +1136,7 @@ body {
   }
 
   .directory-overline {
+    width: auto;
     padding-bottom: 20px;
   }
 
@@ -1184,6 +1185,11 @@ body {
 
   #companyInquire {
     margin-left: 5px;
+  }
+
+  #directoryCTA {
+    height: auto;
+    margin-bottom: 45px;
   }
 
   /* =================== services page mq ==================  */
@@ -1297,7 +1303,7 @@ body {
   .footer-bottom {
     display: inline;
     width: 380px;
-    padding-bottom: 160px;
+    padding-bottom: 100px;
   }
 
   .footer-item-info {
@@ -1515,6 +1521,7 @@ body {
   }
 
   .directory-overline {
+    width: auto;
     padding-bottom: 20px;
   }
 
@@ -1535,8 +1542,9 @@ body {
 
   #directoryCTA {
     width: 540px;
-    height: 320px;
+    height: auto;
     margin-left: 30px;
+    margin-bottom: 45px;
   }
 
   /* =================== services page mq ==================  */
@@ -1825,6 +1833,7 @@ body {
   }
 
   .directory-overline {
+    width: auto;
     padding-bottom: 32px;
   }
 
@@ -1840,6 +1849,10 @@ body {
 
   .company-link {
     margin-left: 100px;
+  }
+
+  #directoryCTA {
+    margin-bottom: -80px;
   }
 
   /* =================== services page mq ==================  */
@@ -1929,7 +1942,7 @@ body {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
- body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -1976,8 +1989,8 @@ body {
 
 
 @media screen and (min-width: 1441px) {
- body {
-    max-width: 100%;
+  body {
+    max-width: 1440px;
     overflow-x: hidden;
   }
 
