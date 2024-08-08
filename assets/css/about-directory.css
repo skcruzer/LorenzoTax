@@ -919,7 +919,7 @@ body {
   /* ============ nav mq (all pages) ============  */
   .about {
     display: flex;
-    width: 390px;
+    width: auto;
     padding: 0px 0px;
     align-items: flex-start;
     gap: 8px;
@@ -1130,18 +1130,17 @@ body {
   /* =============== directory page mq ===============  */
   .directory {
     display: flex;
-    width: 390px;
-    padding: 20px 16px;
-    margin-left: -30px;
+    width: auto;
+    padding: 0px 0px;
+  
     align-items: flex-start;
     gap: 8px;
   }
 
   .directory-section {
     display: flex;
-    padding-left: 32px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 32px;
     align-self: stretch;
     margin-bottom: 20px;
@@ -1149,6 +1148,8 @@ body {
 
   .directory-overline {
     width: auto;
+    align-self: start;
+    padding-left: 20px;
     padding-bottom: 20px;
   }
 
@@ -1207,9 +1208,8 @@ body {
   /* =================== services page mq ==================  */
   .services {
     display: flex;
-    max-width: 390px;
-    padding: 20px 16px;
-    margin-left: -30px;
+    max-width: auto;
+    padding: 0px 0px;
     align-items: flex-start;
   }
 
@@ -1223,13 +1223,10 @@ body {
     margin-bottom: 60px;
   }
 
-  .services-overline {
-    padding-left: 20px;
-  }
 
   .services-card {
     display: block;
-    padding-left: 20px;
+   
   }
 
   .services-paragraph {
@@ -1241,25 +1238,23 @@ body {
   .service-2 {
     width: 360px;
     height: 1px;
-    margin-left: 15px;
     margin-top: 580px;
   }
 
   .service-3 {
     width: 360px;
     height: 1px;
-    margin-left: 15px;
     margin-top: 340px;
   }
 
   /* ============ terms/privacy pages mq ============  */
   .terms {
-    max-width: 363px;
-    padding: 0px 10px;
+    max-width: auto;
+    padding: 0px 15px;
   }
 
   #termsNav {
-    margin-left: -200px;
+    margin-left: -100px;
   }
 
 
@@ -1348,7 +1343,7 @@ body {
   /* ============ nav mq (all pages) ============  */
   .about {
     display: flex;
-    width: 600px;
+    width: auto;
     padding: 0px 0px;
     align-items: flex-start;
     gap: 8px;
@@ -1529,7 +1524,7 @@ body {
 
   .directory {
     display: flex;
-    width: 600px;
+    width: auto;
     padding: 0px 32px;
     margin-left: -30px;
     align-items: flex-start;
@@ -1576,15 +1571,15 @@ body {
   /* =================== services page mq ==================  */
   .services {
     display: flex;
-    max-width: 600px;
-    padding: 0px 32px;
+    width: auto;
+    padding: 0px 20px;
     align-items: flex-start;
   }
 
   .services-exp {
     display: flex;
     width: 550px;
-    padding: 0px 16px;
+    padding: 0px 0px;
     flex-direction: column;
     align-items: flex-start;
     margin-top: -140px;
@@ -1609,7 +1604,7 @@ body {
 
   /* ============ terms/privacy pages mq ============  */
   .terms {
-    max-width: 600px;
+    max-width: auto;
     padding: 0px 20px;
   }
 
@@ -1681,7 +1676,7 @@ body {
   /* ============ nav mq (all pages) ============  */
   .about {
     display: flex;
-    width: 768px;
+    width: auto;
     padding: 0px 32px;
     align-items: flex-start;
     gap: 8px;
@@ -1849,7 +1844,7 @@ body {
   /* =================== directory page mq ==================  */
   .directory {
     display: flex;
-    width: 768px;
+    width: auto;
     padding: 0px 32px;
     flex-direction: column;
     align-items: flex-start;
@@ -1897,7 +1892,7 @@ body {
   /* =================== services page mq ==================  */
   .services {
     display: flex;
-    max-width: 768px;
+    max-width: auto;
     padding: 0px 32px;
     align-items: flex-start;
   }
@@ -1940,7 +1935,7 @@ body {
 
   /* ============ terms/privacy pages mq ============  */
   .terms {
-    max-width: 768px;
+    max-width: auto;
     padding: 0px 40px;
   }
 
