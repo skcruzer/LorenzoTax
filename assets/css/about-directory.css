@@ -8,20 +8,11 @@ body {
 
 
 /* ======================== nav (all pages) ======================== */
-.about {
-  display: flex;
-  width: 100%;
-  padding: 0px 112px;
-  flex-direction: column;
-  align-items: center;
-  gap: 80px;
-  background: #FBF9F9;
-}
+
 
 .main-nav {
   display: flex;
-  width: 1440px;
-  padding: 0px 80px;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   margin-top: -45px;
@@ -123,6 +114,16 @@ body {
 
 
 /* =================== About page ====================== */
+.about {
+  display: flex;
+  width: 100%;
+  padding: 0px 112px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background: #FBF9F9;
+}
+
 .about-us {
   display: flex;
   justify-content: space-between;
@@ -181,7 +182,7 @@ body {
 .expertise:before {
   content: "";
   display: block;
-  margin-left: -50px;
+  margin-left: -80px;
   width: 1280px;
   padding: 20px;
   border-top: 1px solid #B9B9B9;
@@ -919,15 +920,14 @@ body {
   .about {
     display: flex;
     width: 390px;
-    padding: 20px 16px;
-    margin-left: -30px;
+    padding: 0px 0px;
     align-items: flex-start;
     gap: 8px;
   }
 
   .main-nav {
     width: 283px;
-    margin-left: -40px;
+    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
   }
@@ -954,8 +954,8 @@ body {
     height: 360px;
     background: #fff;
     border-radius: 4px;
-    top: 100px;
-    right: -140px;
+    top: 110px;
+    right: -80px;
     z-index: 1;
     border: 1px solid #051C2A;
   }
@@ -1016,7 +1016,7 @@ body {
 
   /* ============ about page mq ============  */
   .about-us {
-    padding: 20px 32px;
+    padding: 20px 20px;
     flex-direction: column;
     justify-content: center;
     gap: 56px;
@@ -1045,7 +1045,7 @@ body {
   .expertise {
     display: flex;
     width: auto;
-    padding: 40px 32px;
+    padding: 40px 20px;
     gap: 56px;
     align-self: stretch;
   }
@@ -1075,7 +1075,7 @@ body {
 
   /* ============ team section (about page) mq ============  */
   .team-section {
-    padding: 0px 32px 0px;
+    padding: 0px 20px;
     flex-direction: column;
     gap: 40px;
     align-self: stretch;
@@ -1272,7 +1272,7 @@ body {
 
   .directory-cta {
     width: 360px;
-    margin-left: 30px;
+    margin-left: 15px;
     padding-left: 20px;
   }
 
@@ -1348,8 +1348,7 @@ body {
   .about {
     display: flex;
     width: 600px;
-    padding: 0px 32px;
-    margin-left: -30px;
+    padding: 0px 0px;
     align-items: flex-start;
     gap: 8px;
   }
@@ -1621,11 +1620,11 @@ body {
   /* ============ cta section (all pages) mq ============  */
   .call-to-action {
     width: auto;
-    margin-left: 36px;
+    margin-left: 20px;
   }
 
   .directory-cta {
-    width: 520px;
+    width: 550px;
     padding: 30px;
 
   }
