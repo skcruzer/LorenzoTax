@@ -1304,6 +1304,7 @@ body {
 
   /* ============ footer section (all pages) mq ============  */
   .footer {
+    width: auto;
     padding: 0px 32px;
     align-self: stretch;
     margin-top: -50px;
@@ -1637,6 +1638,7 @@ body {
 
   /* ============ footer section (all pages) mq ============  */
   .footer {
+    width: auto;
     padding: 0px 32px;
     align-self: stretch;
     margin-top: -50px;
@@ -1962,6 +1964,7 @@ body {
 
   /* ============ footer section (all pages) mq ============  */
   .footer {
+    width: auto;
     padding: 0px;
     align-self: stretch;
   }
