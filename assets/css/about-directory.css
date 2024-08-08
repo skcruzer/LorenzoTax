@@ -2027,14 +2027,9 @@ body {
 
 
 @media screen and (min-width: 1441px) {
-  html {
-    max-width: 1440px;
-    overflow-x: hidden;
-    margin: auto;
-  }
-
   body {
-   position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 
