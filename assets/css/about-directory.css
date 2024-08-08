@@ -650,7 +650,7 @@ body {
 /* ======================== footer section (all pages) ======================== */
 .footer {
   display: flex;
-  width: 100%;
+  width: 1440px;
   padding: 0px 112px;
   flex-direction: column;
   align-items: flex-start;
@@ -2027,10 +2027,13 @@ body {
 
 
 @media screen and (min-width: 1441px) {
-  body {
+  html, body {
     max-width: 1440px;
     overflow-x: hidden;
+    margin: auto;
   }
+
+
 
 
 }

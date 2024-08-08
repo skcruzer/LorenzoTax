@@ -2216,8 +2216,9 @@ body {
 
 @media screen and (min-width: 1441px) {
   html, body {
-    max-width: 100%;
+    max-width: 1440px;
     overflow-x: hidden;
+    margin: auto;
   }
 
   body {
@@ -2225,12 +2226,12 @@ body {
   }
 
   /* ============ nav mq ============  */
-  .main-nav {
+  /* .main-nav {
     max-width: 1440px;
-  }
+  } */
 
   .hero-image {
-    left: 32%;
+    left: 58%;
   }
 
 
