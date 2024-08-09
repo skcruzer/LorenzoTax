@@ -2382,34 +2382,264 @@ body {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
+
+
   body {
     max-width: 100%;
     overflow-x: hidden;
   }
 
 
+  /* ============ nav mq (all pages) ============  */
+  .about {
+    display: flex;
+    width: auto;
+    padding: 0px 32px;
+    align-items: flex-start;
+    gap: 8px;
+  }
 
-  /* ============ nav mq ============  */
-  .nav-button {
-    display: none;
+  .main-nav {
+    display: flex;
+    width: 1020px;
+    padding: 0px 42px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+
+  .navbar-nav {
+    display: flex;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
 
 
 
-  /* ============ hero section mq ============  */
+  .nav-left {
+    width: 283.967px;
+    margin-left: -40px;
+  }
 
 
-  /* ============ services section mq ============  */
+  .nav-right {
+    display: flex;
+    width: 283px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
 
-  /* ============ testimonials section mq ============  */
+
+  /* ============ about page mq ============  */
+  .about-us {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 56px;
+    margin-top: -100px;
+  }
+
+  .about-us-heading {
+    width: 700px;
+  }
+  
+  .about-us-right {
+    width: 900px;
+  }
+
+  .about-us-heading {
+    font-size: 50px;
+  }
+
+  /* ============ expertise section (about) mq ============  */
+  .expertise:before {
+    content: "";
+    display: block;
+    margin-left: 0px;
+    width: 900px;
+    padding: 0px;
+    border-top: 1px solid #B9B9B9;
+  }
+
+  .expertise {
+    display: flex;
+    width: 768px;
+    padding: 40px 0px;
+    gap: 56px;
+    align-self: stretch;
+  }
+
+  .exp-row {
+    display: block;
+    gap: 20px;
+  }
+
+  .exp-title {
+    padding-bottom: 20px;
+  }
+
+  .exp-summary {
+    width: 900px;
+  }
+
+  .expertise::after {
+    content: "";
+    display: block;
+    margin-left: 0px;
+    width: 900px;
+    padding: 0px;
+    border-top: 1px solid #B9B9B9;
+  }
+
+  /* ============ team section (about page) mq ============  */
+  .team-section {
+    padding: 0px 20px 0px;
+    flex-direction: column;
+    gap: 56px;
+    align-self: stretch;
+  }
+
+  .team-heading {
+    width: 400px;
+  }
+
+  .team-right {
+    margin-left: 100px;
+    gap: 100px;
+  }
+
+  .team-row {
+    gap: 140px;
+  }
+
+  .profile-pic:hover {
+    width: 280px;
+    height: 280px;
+  }
+
+  /* =================== directory page mq ==================  */
+  .directory {
+    display: flex;
+    width: auto;
+    padding: 0px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
 
-  /* ============ cta section mq ============  */
+  .directory-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    margin-top: -140px;
+    margin-bottom: -40px;
+  }
+
+  .directory-overline {
+    width: auto;
+    padding-bottom: 32px;
+  }
+
+  .directory-row {
+    margin-top: -30px;
+  }
+
+  .directory-card {
+    width: 475px;
+    margin-bottom: 32px;
+  }
+
+  .company-link {
+    margin-left: -120px;
+  }
+
+  #directoryCTA {
+    margin-bottom: -80px;
+  }
+
+  /* =================== services page mq ==================  */
+  .services {
+    display: flex;
+    max-width: auto;
+    padding: 0px 32px;
+    align-items: flex-start;
+  }
+
+  .services-exp {
+    display: flex;
+    width: 900px;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -140px;
+    margin-bottom: 0px;
+  }
+
+  .services-paragraph {
+    font-size: 16px;
+  }
+
+  .service-2 {
+    width: 900px;
+    height: 1px;
+    margin-top: 480px;
+  }
+
+  .service-3 {
+    width: 900px;
+    height: 1px;
+    margin-top: 240px;
+  }
+
+  /* ============ terms/privacy pages mq ============  */
+  .terms {
+    max-width: auto;
+    padding: 0px 40px;
+  }
 
 
-  /* ============ footer section mq ============  */
+  /* ============ cta section (all pages) mq ============  */
+  .call-to-action {
+    width: auto;
+  }
+
+  .directory-cta {
+    width: 980px;
+    padding: 40px;
+
+  }
+
+  .dir-cta-paragraph {
+    width: 650px;
+    text-align: start;
+    margin-left: 150px;
+  }
+
+  /* ============ footer section (all pages) mq ============  */
+  .footer {
+    padding-bottom: 80px;
+    align-self: stretch;
+  }
+
+  .footer-bottom {
+    width: 700px;
+  }
+
+  .footer-social-links, .footer-policy-links {
+    align-items: center;
+  }
+
+
 
 
 
