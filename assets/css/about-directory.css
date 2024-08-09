@@ -963,11 +963,11 @@ body {
   #navbarNavTerms {
     position: absolute;
     width: 196px;
-    height: 440px;
+    height: 380px;
     background: #fff;
     border-radius: 4px;
-    top: 100px;
-    right: -140px;
+    top: 110px;
+    right: -80px;
     z-index: 1;
     border: 1px solid #051C2A;
   }
@@ -1250,7 +1250,7 @@ body {
   /* ============ terms/privacy pages mq ============  */
   .terms {
     max-width: auto;
-    padding: 0px 15px;
+    padding: 0px 16px;
   }
 
   #termsNav {
@@ -1384,7 +1384,7 @@ body {
   #navbarNavTerms {
     position: absolute;
     width: 196px;
-    height: 440px;
+    height: 380px;
     background: #fff;
     border-radius: 4px;
     top: 100px;
@@ -1717,7 +1717,7 @@ body {
   #navbarNavTerms {
     position: absolute;
     width: 196px;
-    height: 440px;
+    height: 380px;
     background: #fff;
     border-radius: 4px;
     top: 100px;
