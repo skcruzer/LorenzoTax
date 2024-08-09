@@ -2627,6 +2627,7 @@ body {
 
   /* ============ footer section (all pages) mq ============  */
   .footer {
+    width: auto;
     padding-bottom: 80px;
     align-self: stretch;
   }
