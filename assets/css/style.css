@@ -2751,7 +2751,10 @@ body {
 
 
 
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+
+
+
   html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -2762,28 +2765,261 @@ body {
   }
 
   /* ============ nav mq ============  */
+  .main-nav {
+    display: flex;
+    width: 1300px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
 
+  .navbar-nav {
+    display: flex;
+    padding: 40px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav-link {
+    height: 24px;
+  }
+
+  .nav-left {
+    display: flex;
+    width: 283.967px;
+    height: 100px;
+    padding: 0px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1.599px;
+  }
+
+
+
+  .nav-right {
+    display: flex;
+    width: 283px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
 
   /* ============ hero section mq ============  */
+  .hero {
+    width: 1349.184px;
+    height: 847px;
+    flex-shrink: 0;
+  }
+
+  .hero-image {
+    width: 1047.157px;
+    height: 1047.003px;
+    left: 30%;
+    overflow: hidden;
+  }
+
+  .hero-info {
+    width: 1000px;
+    padding-top: 200px;
+  }
+
+  .multi-engage {
+    display: flex;
+    width: 288px;
+    height: 40px;
+    padding: 8px 20px;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+  }
+
+  .hero-statement {
+    color: #F9FAFB;
+    width: 1000px;
+    display: inline-block;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    margin-left: 160px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: -0.96px;
+    z-index: 1;
+  }
+
+  .crypto-marquee {
+    z-index: 1;
+    position: relative;
+  }
 
 
   /* ============ services section mq ============  */
+  .services {
+    padding: 40px 34px;
+    align-self: stretch;
+  }
+
+  .services-intro {
+    justify-content: space-between;
+  }
+
+  /* .services-left {
+    padding-right: 50px;
+  } */
+
+  .services-right {
+    width: 328px;
+
+  }
+
+  .services-top-statement {
+    font-size: 14px;
+  }
 
 
-  /* ============ testimonials section mq ============  */
 
+  .services-card {
+
+    padding: 40px 24px;
+    justify-content: center;
+  }
+
+  .serv-paragraph {
+    width: 100%;
+  }
+
+  .service-crypto {
+    width: 82px;
+    height: 8px;
+    margin: -40px -24px 12px;
+  }
+
+  .service-strategy {
+    width: 82px;
+    height: 8px;
+    margin: -40px -24px 52px;
+  }
+
+  .service-finance {
+    width: 384px;
+    height: 8px;
+    margin: -40px -24px -12px;
+  }
+
+  .control-badge {
+    padding-top: 20px;
+  }
+
+
+
+
+  /* ============ how it works section mq ============  */
+  .how-card {
+    width: auto;
+    padding: 40px 32px;
+  
+  }
+
+  .how-it-works {
+    
+    gap: 40px;
+    align-self: stretch;
+    margin-left: 0px;
+  }
+
+  .how-image {
+    width: 475px;
+    
+  }
+
+
+  .how-right {
+    
+    margin-left: 40px;
+    padding-top: 16px;
+    width: 704px;
+    gap: 32px;
+  }
+
+  .how-list-paragraph {
+    align-self: stretch;
+    width: 648px;
+  }
+
+  /* ============ directory section mq ============  */
+  .directory {
+    width: auto;
+    gap: 32px;
+    align-self: stretch;
+  }
+
+  
+
+  .partner-row {
+    justify-content: center;
+    gap: 82px;
+    align-self: stretch;
+  }
+
+ 
+
+  /* ============ blog section mq ============  */
+  .blog {
+    margin-left: -25px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+  }
 
   /* ============ cta section mq ============  */
+  .call-to-action {
+    width: auto;
+  }
+
+  .cta-text {
+    margin-left: 40px;
+  }
+
+  .cta-line {
+    text-align: start;
+  }
 
 
   /* ============ footer section mq ============  */
+  .footer {
+    align-self: stretch;
+    margin-left: -20px;
+    padding-bottom: 40px;
+  }
+
+  .footer-bottom {
+    width: 1200px;
+  }
+
+  .footer-social-links, .footer-policy-links {
+    align-items: center;
+  }
+
+
+
+
+
+
 
 }
 
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
   html, body {
     max-width: 1440px;
     overflow-x: hidden;
